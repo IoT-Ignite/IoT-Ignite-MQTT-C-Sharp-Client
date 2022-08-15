@@ -48,7 +48,7 @@ namespace csharp_mqtt_client
         /// <summary>
         /// Call this method to (re)connect
         /// </summary>
-        public async Task Connect(string username, string password, string brokerUrl = "mqtt.ardich.com", int serverport = 8883)
+        public async Task Connect(string username, string password, string brokerUrl = "mqtt-tr.iot-ignite.com", int serverport = 8883)
         {
             ctSource = new CancellationTokenSource();
             // Setup and start a managed MQTT client.
